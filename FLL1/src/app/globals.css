@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-500: #ef4444;
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-surface-glass: rgba(255, 255, 255, 0.05);
+  --font-display: "ZCOOL XiaoWei", serif;
+}
+
+:root {
+  --background: #030712;
+  --foreground: #ededed;
+  --theme-accent: #ef4444;
+  --theme-base: #1a0000;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
